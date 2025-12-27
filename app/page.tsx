@@ -1,11 +1,9 @@
 import React from 'react';
 import ExploreBtn from "@/components/ExploreBtn";
 import EventCard from "@/components/EventCard";
+import {events} from "@/lib/constant"
 
-const events = [
-    {image: '/images/event1.png', title: 'Event 1'},
-    {image: '/images/event2.png', title: 'Event 2'},
-]
+
 
 const Page = () => {
     return (
