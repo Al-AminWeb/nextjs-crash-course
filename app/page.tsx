@@ -2,9 +2,10 @@ import React from 'react';
 
 const Page = () => {
     return (
-        <div>
-            <h1>Hello world</h1>
-        </div>
+        <section>
+            <h1 className="text-center">The hub is for Every Dev <br/> Event you can miss</h1>
+            <p className="text-center mt-5 ">Hackathons Meetups All in one place</p>
+        </section>
     );
 };
 
